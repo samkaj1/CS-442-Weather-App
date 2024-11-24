@@ -56,21 +56,3 @@ We will be testing your application by building and running it as either a nativ
 
 You should include at least 5 distinct unit tests that focus on testing the functionality of your model classes. You should include at least 5 distinct widget tests that focus on testing the functionality of your custom widgets.
 You should include at least one integration test group that demonstrates the correctness of some core feature(s) of your app.
-
-## 5. Grading
-
-This machine problem is worth 50 points. Your grade will be based on the following criteria:
-
-- 10 points: there should be at least 3 separate screens/pages in your application, each of which should be implemented as a separate widget, and can be reach either as the "home" page or via some form of navigation.
-- 10 points: at least one of the pages in your application should be backed by a stateful widget, which in turn should be backed by a custom model class, which makes use of some form of state management.
-- 10 points: some user-updateable data is correctly persisted across application launches (either locally or in the cloud).
-- 10 points: some data is dynamically accessed from an external source (e.g., a RESTful or cloud-based API) and displayed it in some way.
-- 10 points: the requisite number of unit, widget, and integration tests are included, and they pass.
-
-If your code does not compile, you will receive a zero for the assignment. If your code compiles but does not meet the requirements, you will receive partial credit based on the extent to which it does.
-
-## 6. Submission
-
-To submit your machine problem, commit and push your code to the "main" branch in your private GitHub repository shared with us. You can make as many commits and pushes as needed; we will assess the most recent version of your code pushed before the deadline.
-
-Note that you may NOT apply late days to this machine problem. If you do not submit your code before the deadline, you will receive a zero for the assignment.
